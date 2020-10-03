@@ -1,0 +1,9 @@
+#include "papercollection.h"
+
+PaperCollection::PaperCollection(const int n){
+    collection_ = new WastePaper [n];
+}
+
+void PaperCollection::putPaper(WastePaper paper) const {
+    
+}
