@@ -75,13 +75,6 @@ void testInvalidPaper() {
 }
 }
 
-int counti(int i) {
-    for(i; i<4; i++)
-        for(int i=0; i<3; i++)
-            ::i+=++i;
-    return i--;
-}
-
 int main()
 {
     WastePaperTests::testDefaultConstructor();
@@ -89,6 +82,5 @@ int main()
     WastePaperTests::testPaperCoordinates();
     WastePaperTests::testWholePaper();
     WastePaperTests::testCopyPaper();
-    int i=1;
-    return counti(3);
+    return 0;
 }

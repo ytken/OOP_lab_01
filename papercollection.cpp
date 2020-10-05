@@ -82,3 +82,8 @@ PaperCollection::~PaperCollection() {
 bool PaperCollection::isTheStackSustainable() const {
     return true;
 }
+
+PaperCollection::PaperElement::PaperElement(const WastePaper &)
+{
+
+}
